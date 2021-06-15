@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "BookTab",
+  "version": "0.1",
+  "description": "Close your tabs, adding them to your other bookmarks folder",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["bookmarks", "tabs"],
+  "action": {
+    "default_popup": "templates/popup.html"
+  }
+}
